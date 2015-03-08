@@ -59,10 +59,10 @@ public class SortingAlgorithmTest {
     @Test
     public void testSort() {
         int[] array = array10.clone();
-        algo.sort(array);
+        int[] sortedArray = algo.sort(array);
         System.out.println("Sorted array (" + algoName + "): " +
-                           Arrays.toString(array));
-        assertSorted(array);
+                           Arrays.toString(sortedArray));
+        assertSorted(sortedArray);
     }
 
 }
