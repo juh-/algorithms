@@ -12,6 +12,7 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 import juh.sorting.algorithm.BubbleSort;
+import juh.sorting.algorithm.MergeSort;
 
 @RunWith(Parameterized.class)
 public class SortingAlgorithmTest {
@@ -53,6 +54,7 @@ public class SortingAlgorithmTest {
     public static Collection algorithms() {
         return Arrays.asList(new Object[][] {
                 {new BubbleSort(), "BubbleSort"},
+                {new MergeSort(), "MergeSort"},
             });
     }
 
