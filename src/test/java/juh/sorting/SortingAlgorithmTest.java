@@ -12,9 +12,10 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 import juh.sorting.algorithm.BubbleSort;
+import juh.sorting.algorithm.BSTSort;
+import juh.sorting.algorithm.HeapSort;
 import juh.sorting.algorithm.MergeSort;
 import juh.sorting.algorithm.QuickSort;
-import juh.sorting.algorithm.HeapSort;
 
 @RunWith(Parameterized.class)
 public class SortingAlgorithmTest {
@@ -59,6 +60,7 @@ public class SortingAlgorithmTest {
                 {new MergeSort(), "MergeSort"},
                 {new QuickSort(), "QuickSort"},
                 {new HeapSort(), "HeapSort"},
+                {new BSTSort(), "BSTSort"},
             });
     }
 
