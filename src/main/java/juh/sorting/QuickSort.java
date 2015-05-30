@@ -1,6 +1,4 @@
-package juh.sorting.algorithm;
-
-import juh.sorting.SortingAlgorithm;
+package juh.sorting;
 
 public class QuickSort implements SortingAlgorithm {
 

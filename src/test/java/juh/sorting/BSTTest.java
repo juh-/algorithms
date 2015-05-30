@@ -1,10 +1,7 @@
-package juh.sorting.algorithm;
+package juh.sorting;
 
 import org.junit.Assert;
 import org.junit.Test;
-
-import juh.sorting.algorithm.BST;
-import juh.sorting.algorithm.BSTNode;
 
 public class BSTTest {
 

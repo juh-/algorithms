@@ -1,9 +1,7 @@
-package juh.sorting.algorithm;
+package juh.sorting;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import juh.sorting.SortingAlgorithm;
 
 public class BSTSort implements SortingAlgorithm {
 

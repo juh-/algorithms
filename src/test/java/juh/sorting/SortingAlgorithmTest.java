@@ -11,12 +11,6 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import juh.sorting.algorithm.BubbleSort;
-import juh.sorting.algorithm.BSTSort;
-import juh.sorting.algorithm.HeapSort;
-import juh.sorting.algorithm.MergeSort;
-import juh.sorting.algorithm.QuickSort;
-
 @RunWith(Parameterized.class)
 public class SortingAlgorithmTest {
 

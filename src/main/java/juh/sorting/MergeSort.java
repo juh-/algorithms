@@ -1,6 +1,5 @@
-package juh.sorting.algorithm;
+package juh.sorting;
 
-import juh.sorting.SortingAlgorithm;
 import java.util.Arrays;
 
 public class MergeSort implements SortingAlgorithm {

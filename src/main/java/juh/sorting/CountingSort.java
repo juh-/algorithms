@@ -1,4 +1,4 @@
-package juh.sorting.algorithm;
+package juh.sorting;
 
 /**
  * Implementation of Counting Sort.

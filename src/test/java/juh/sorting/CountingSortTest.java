@@ -1,4 +1,4 @@
-package juh.sorting.algorithm;
+package juh.sorting;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -6,8 +6,6 @@ import java.util.Random;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
-import juh.sorting.algorithm.CountingSort;
 
 public class CountingSortTest {
 
